@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrRound{
+    span{
+        content: ' ';
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid rgb(141, 70, 70);       
+        background:transparent;
+        margin: 2px 10px
+    }
+}
+.arrName{
+    p{
+        margin: 6px 0;
+        color: #000;
+    }
+}
